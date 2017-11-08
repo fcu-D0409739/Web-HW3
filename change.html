@@ -1,0 +1,29 @@
+
+<!DOCTYPE html>
+
+
+<html>
+	<head>
+		<meta charest = "utf-8">
+		<title>A First Program File in JavaScript</title>
+		<script type= "text/javascript">
+			
+			document.writeln("<h1>Temperature Transition From 攝氏  to 華氏</h1>"+name);
+			
+			var celsius;
+			var int_celsius;
+			var	Fahrenheit;
+			celsius = window.prompt("Input the celsius");
+			document.writeln("攝氏: "+celsius);
+			int_celsius = parseInt(celsius);
+			
+			function change(int_celsius)
+			{
+				
+				return 	(1.8*celsius)+32;
+			}
+			
+			document.writeln("華氏: "+ change(int_celsius));
+		</script>
+	</head>
+</html>
